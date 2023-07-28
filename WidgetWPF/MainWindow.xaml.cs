@@ -24,5 +24,7 @@ namespace WidgetWPF
         {
             InitializeComponent();
         }
+
+        
     }
 }

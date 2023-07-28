@@ -1,14 +1,35 @@
-﻿<Window x:Class="WidgetWPF.MainWindow"
+﻿<Window x:Name="MainWindow1" x:Class="WidgetWPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WidgetWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Height="52" Margin="54,42,0,0" VerticalAlignment="Top" Width="164"/>
-        <TextBox HorizontalAlignment="Left" Height="56" Margin="54,138,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="164"/>
-
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+    <Grid Background="#FF9CA3AD">
+        <Rectangle x:Name="rect1" Margin="100,78,549,287" 
+            Stroke="Black" 
+            OpacityMask="Red" 
+            Fill="#FFF70808" 
+            RadiusY="20" 
+            RadiusX="20" 
+            RenderTransformOrigin="0.5,0.5" 
+            StrokeThickness="5" Width="150" Height="70"/>
+        <Rectangle x:Name="rect1_Copy" Margin="189,181,447,181" 
+            Stroke="Black" 
+            OpacityMask="Red" 
+            Fill="#FFF70808" 
+            RadiusY="20" 
+            RadiusX="20" 
+            RenderTransformOrigin="0.5,0.5" 
+            StrokeThickness="5" Height="72" d:LayoutOverrides="VerticalAlignment" Width="150"/>
+        <Rectangle x:Name="rect1_Copy1" Margin="251,286,135,76" 
+            Stroke="Black" 
+            OpacityMask="Red" 
+            Fill="#FFF70808" 
+            RadiusY="20" 
+            RadiusX="20" 
+            RenderTransformOrigin="0.5,0.5" 
+            StrokeThickness="5" Height="72" d:LayoutOverrides="HorizontalAlignment" Width="400"/>
     </Grid>
 </Window>
